@@ -18,6 +18,14 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+    <!--Font Icon-->
+    <script src="https://kit.fontawesome.com/c0784e615b.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,7 +33,184 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+    <div class="content-wrapper">
+      <div class ="header-divider"></div>
+      <nav>
+        <ul>
+          <li> Projects </li>
+          <li> Skills </li> 
+          <li> About</li>
+          <li> Contact Me</li> 
+        </ul>
+      </nav>
+      <h1> Hi There! My name is Jam. I am a front-end developer and a creative problem solver who loves to create a sleek and clean website.</h1>
+    </div>
+  </header>
+
+  <main>
+    <article class="portfolio">
+      <section id="work">
+        <div class="content-wrapper">
+          <h3 class="portfolio-header"> Projects</h3>
+          <div class="portfolio-wrapper">
+            <div class="portfolio-piece">
+              <figure>
+                <a href="https://jam-cs.github.io/guess-the-word/" target="_blank">
+                  <img src="../jam-portfolio/img//wd-guess-the-word-game.jpg" alt="Guess The Word Game">
+                </a>
+              </figure>
+              <h4>Guess The Word Game</h4>
+              <div class="project-description">
+                <p>Players guess the word by entering one letter at a time. If the player guesses all the letters correctly before they use up their allotted guesses, they win!</p>
+                <p> 
+                  <span>Skills:</span>
+                  "Manipulate the DOM, Vanilla JavaScript"
+                </p>
+                <p> 
+                  <span>Tools:</span>
+                  "GitHub, Studio Visual Code"
+                </p>
+                <a class="project-link" href="https://jam-cs.github.io/guess-the-word/" target="_blank">Live Page</a>
+              </div>
+            </div>
+            <div class="portfolio-piece">
+              <figure>
+                <a href="https://vc553k.csb.app/" target="_blank">
+                  <img src="../jam-portfolio/img/wd-sticky-note-app.jpg" alt="Sticky Note App">
+                </a>
+              </figure>
+              <h4>Sticky Note App</h4>
+              <div class="project-description">
+                <p>An interactive app that will let users create “sticky notes” on their computer to keep track of to-do items.</p>
+                <p> <span> Skills:</span> "ES6, JSX, Managing data flow, Manipulate the DOM"</p>
+                <p> <span> Tools:</span>CodeSandBox</p>
+                <a class="project-link" href="https://vc553k.csb.app/" target="_blank">Live Page</a>
+              </div>
+            </div>
+            <div class="portfolio-piece">
+              <figure>
+                <a href="https://6xl36c.csb.app/" target="_blank">
+                  <img src="../jam-portfolio/img/wd-hotel-booking-app.jpg" alt="Hotel Booking App">
+                </a>
+              </figure>
+              <h4>Hotel Booking App</h4>
+              <div class="project-description">
+                <p>A hotel search tool that allows you to filter the type of hotel you want to stay in.</p>
+                <p> <span> Skills:</span> "ES6, JSX, Managing data flow, Manipulate the DOM"</p>
+                <p> <span> Tools:</span>CodeSandBox</p>
+                <a class="project-link" href="https://6xl36c.csb.app/" target="_blank">Live Page</a>
+              </div>
+            </div>
+            <div class="portfolio-piece">
+              <figure>
+                <a href="https://ion1y4.csb.app/" target="_blank">
+                  <img src="../jam-portfolio/img/wd-name-tags.jpg" alt="Name Tags App">
+                </a>
+              </figure>
+              <h4>Name Tags App</h4>
+              <div class="project-description">
+                <p>A name tag generator to create bulk name tags using functional components and ES6 modules.</p>
+                <p> <span> Skills:</span> "ES6, JSX, Managing data flow"</p>
+                <p> <span> Tools:</span>CodeSandBox</p>
+                <a class="project-link" href="hhttps://ion1y4.csb.app" target="_blank">Live Page</a>
+              </div>
+            </div>
+            <div class="portfolio-piece">
+              <figure>
+                <a href="https://jam-cs.github.io/github-repo-gallery/" target="_blank">
+                  <img src="../jam-portfolio/img/wd-git-repo-gallery.jpg" alt="GitHub Repo Gallery">
+                </a>
+              </figure>
+              <h4> GitHub Repo Gallery</h4>
+              <div class="project-description">
+                <p>Pulling data from my GitHub portfolio to create a gallery of repos. Visitors to my site can click on the repos to see more details.</p>
+                <p> <span> Skills:</span> "APIs, Manipulate the DOM"</p>
+                <p> <span> Tools:</span>GitHub</p>
+                <a class="project-link" href="https://jam-cs.github.io/github-repo-gallery/" target="_blank">Live Page</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="content-wrapper">
+          <h3 class="skills-header"> Skills</h3>
+          <h4> Developer Skills</h4>
+          <div class="language-wrapper">
+            <p class="skill"> CSS3 </p>
+            <p class="skill"> HTML5 </p>
+            <p class="skill"> Vanilla JavaScript </p>
+            <p class="skill"> ES6 </p>
+            <p class="skill"> React </p> 
+            <p class="Skill"> Git and GitHub</p>
+          </div>
+          <h4> Tech Stack</h4>
+          <div class="tool-wrapper">
+            <p class="tool"> FTP Client</p>
+            <p class="tool"> Visual Studio Code</p>
+            <p class="tool"> Chrome Devtools</p>
+            <p class="tool"> GitHub Pages</p>
+            <p class="tool"> Adobe Creative Suite</p>
+          </div>
+        </div>
+      </section>
+    </article>
+    <section id="about">
+      <div class="content-wrapper">
+        <div class="about-content-wrapper">
+          <figure>
+            <img src="img/jam-CS.jpg" alt="profile-image">
+          </figure>
+          <div class="about-info">
+            <h3> Hi! I am Jam</h3>
+            <h4>I am a front-end developer and a creative problem solver who loves to create a sleek and clean website.</h4>
+            <p class="about-text">Coding is always a challenge for me. I am fascinated by coding.
+              It became one of those important languages that people around the world could learn and use. 
+              I took a coding class once when I was in college and it did not work out for me at that point. 
+              It has been bothering me since. I was finally ready to challenge myself again but this time I got it.</p>
+            <p> <span> Let's Talk</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contact">
+    <div class="content-wrapper">
+      <h3> Let's Connect</h3>
+      <div class="contact-wrapper">
+        <div class="hire-me">
+          <h5 class="contact-title">Hire Me</h5>
+          <p>914-359-7939</p>
+          <p>jam@designbyjam.com</p>
+        </div>
+        <div class="follow-me">
+          <h5 class="contact-title"> Follow Me</h5>
+          <ul class="social-icon">
+            <li> <a href="https://www.linkedin.com/in/chutipan-singtokaew-a113501b/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a></li>
+            <li> <a href="https://github.com/Jam-CS" target="_blank">
+              <i class="fab fa-github"></i>
+            </a></li>
+          </ul>
+        </div>
+        <div class="meet-me">
+          <h5>Meet Me</h5>
+          <p>New York,NY</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
