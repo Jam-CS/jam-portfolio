@@ -15,8 +15,6 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  font-family: font-family: 'Lexend Tera', sans-serif;
-  font-family: 'Lekton', sans-serif;
 }
 
 /*
@@ -88,6 +86,279 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*General Style*/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Lekton', sans-serif;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin:0px;
+  padding: 0px;
+}
+
+ul {
+  font-weight: bold;
+  margin: 30px;
+}
+
+ul {
+  font-family: 'Lekton', sans-serif;
+  font-weight: 700;
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+nav a{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  background-color:#cac691;
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+
+a:active{
+  background-color:#cac691;
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+
+h1 {
+  font-family: 'Lexend Tera', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width:100%;
+}
+
+h2 {
+  font-family: 'Lekton', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+ 
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+ 
+p {
+  font-family: 'Lekton', sans-serif;
+  line-height: 1.285;
+}
+
+#skills p {
+  background-color: #cac691;
+  margin: 15px 0px;
+  padding: 15px 0px;
+}
+
+.project-link,
+.language-wrapper p,
+.tool-wrapper p {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  color: #152a3e;
+}
+
+.project-link {
+  background-color: #cac691;
+  padding: 10px 30px;
+  border-radius: 30px;
+
+}
+
+
+span {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+footer li i{
+  color: white;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+
+address {
+  font-style: normal;
+}
+
+/* Strutural Style*/
+header,
+#work,
+#skills,
+#about,
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+.content-wrapper {
+  width: 90%;
+}
+
+#work p,
+#about p {
+  width: 100%;
+  text-align: left;
+}
+
+ /* margin */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 25px 0 25px 0;
+}
+
+header{
+  padding: 30px 0 40px 0;
+}
+
+nav {
+  margin-bottom: 60px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+h2{
+  margin-top: 60px;
+}
+
+h3{
+  margin-bottom: 30px;
+}
+
+h4{
+  margin-bottom: 30px;
+}
+
+h5{
+  margin-bottom: 20px;
+}
+
+img {
+ margin-top: 40px;
+}
+
+.project-description{
+  margin: 30px;
+}
+
+.project-link {
+  margin: 40px 0 40px 0;
+}
+
+#skills{
+  margin: 60px 0 80px 0;
+  padding: 30px;
+}
+
+.about-info {
+  margin-bottom: 30px;
+}
+
+.social-icon{
+  margin: 30px 120px 30px 120px;
+}
+
+
+/* -------------------- Base Styles -------------------- */
+
+header, #skills, footer{
+  background-color: #152a3e;
+  color: white;
+}
+
+/*---------------------Mobile Styles------------------*/
+#work, #skill{
+  width: 100%;
+}
+
+h3 {
+  margin: 40px 0 60px 0;
+}
+
+h4 {
+  margin: 20px 0 30px 0;
+}
+
+/*portfolio*/
+.portfolio {
+  margin-top: 80px;
+}
+
+.portfolio-header{
+  margin-bottom: 20px;
+}
+
+.portfolio-piece figure {
+  width: 100%;
+  filter: drop-shadow(1px 2px 6px lightgrey);
+}
+/*about*/
+
+#about{
+  margin-bottom: 40px;
+}
+
+
+/*footer*/
+.hire-me, .follow-me, .meet-me{
+  margin-bottom: 60px;
+}
+
 
 /* ==========================================================================
    Helper classes
